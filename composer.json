@@ -1,7 +1,7 @@
 {
-  "name": "davaxi/allmysms",
+  "name": "quentinix/allmysms",
   "description": "A PHP client library for accessing AllMySMS APIs",
-  "version": "1.0.2",
+  "version": "1.0.2-rev1",
   "type": "library",
   "keywords": [
     "sms",
@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Davaxi\\AllMySMS\\": "src/"
+      "Quentinix\\AllMySMS\\": "src/"
     }
   }
 }
