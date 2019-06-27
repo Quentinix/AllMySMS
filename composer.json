@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Quentinix\\AllMySMS\\": "src/"
+      "Davaxi\\AllMySMS\\": "src/"
     }
   }
 }
