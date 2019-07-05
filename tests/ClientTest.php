@@ -1,6 +1,6 @@
 <?php
 
-use Davaxi\AllMySMS\Client as Client;
+use Quentinix\AllMySMS\Client as Client;
 
 /**
  * Class ClientMockup

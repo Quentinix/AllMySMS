@@ -1,12 +1,12 @@
 <?php
 
-namespace Davaxi\AllMySMS\Service;
+namespace Quentinix\AllMySMS\Service;
 
-use Davaxi\AllMySMS\Service;
+use Quentinix\AllMySMS\Service;
 
 /**
  * Class Account
- * @package Davaxi\AllMySMS\Service
+ * @package Quentinix\AllMySMS\Service
  */
 class Account extends Service
 {

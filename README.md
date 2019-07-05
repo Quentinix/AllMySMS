@@ -2,16 +2,6 @@
 
 A PHP Client library for accesing AllMySMS APIs. Used official documentation : https://www.allmysms.com/_documents/api/http/AllMySMS_DocTechnique_Api_HTTP.pdf
 
-[![Build Status](https://travis-ci.org/davaxi/AllMySMS.svg)](https://travis-ci.org/davaxi/AllMySMS)
-[![Latest Stable Version](https://poser.pugx.org/davaxi/allmysms/version)](https://packagist.org/packages/davaxi/allmysms)
-[![Total Downloads](https://poser.pugx.org/davaxi/allmysms/downloads)](https://packagist.org/packages/davaxi/allmysms)
-[![Latest Unstable Version](https://poser.pugx.org/davaxi/allmysms/v/unstable)](//packagist.org/packages/davaxi/allmysms)
-[![License](https://poser.pugx.org/davaxi/allmysms/license)](https://packagist.org/packages/davaxi/allmysms)
-[![composer.lock available](https://poser.pugx.org/davaxi/allmysms/composerlock)](https://packagist.org/packages/davaxi/allmysms)
-[![Code Climate](https://codeclimate.com/github/davaxi/AllMySMS/badges/gpa.svg)](https://codeclimate.com/github/davaxi/AllMySMS)
-[![Test Coverage](https://codeclimate.com/github/davaxi/AllMySMS/badges/coverage.svg)](https://codeclimate.com/github/davaxi/AllMySMS/coverage)
-[![Issue Count](https://codeclimate.com/github/davaxi/AllMySMS/badges/issue_count.svg)](https://codeclimate.com/github/davaxi/AllMySMS)
-
 ## Installation
 
 This page contains information about installing the Library for PHP.
@@ -30,16 +20,16 @@ You can install the library by adding it as a dependency to your composer.json.
 
 ```
   "require": {
-    "davaxi/allmysms": "^1.0"
+    "quentinix/allmysms": "^1.0"
   }
 ```
 
 #### Cloning from GitHub
 
-The library is available on [GitHub](https://github.com/davaxi/AllMySMS). You can clone it into a local repository with the git clone command.
+The library is available on [GitHub](https://github.com/Quentinix/AllMySMS). You can clone it into a local repository with the git clone command.
 
 ```
-git clone https://github.com/davaxi/AllMySMS.git
+git clone https://github.com/Quentinix/AllMySMS.git
 ```
 
 ### What to do with the files
@@ -56,11 +46,11 @@ require '/path/to/allmysms/folder/autoload.php';
 ```
 <?php
 
-$client = new \Davaxi\AllMySMS\Client();
+$client = new \Quentinix\AllMySMS\Client();
 $client->setLogin('MyLogin');
 $client->setApiKey('MyApiKey');
 // Or
-$client = new \Davaxi\AllMySMS\Client('MyLogin', 'MyApiKey');
+$client = new \Quentinix\AllMySMS\Client('MyLogin', 'MyApiKey');
 
 ```
 
@@ -72,8 +62,8 @@ $client = new \Davaxi\AllMySMS\Client('MyLogin', 'MyApiKey');
 // ...
 
 // SMS
-$service = new Davaxi\AllMySMS\Service\Message\OutGoing($client);
-$sms = new \Davaxi\ALlMySMS\Model\SMS();
+$service = new Quentinix\AllMySMS\Service\Message\OutGoing($client);
+$sms = new \Quentinix\ALlMySMS\Model\SMS();
 
 // Required
 $sms->addRecipient('0600000000');
@@ -116,8 +106,8 @@ $smsContentLength = $sms->getMessageLength();
 // ...
 
 // MMS
-$service = new Davaxi\AllMySMS\Service\Message\OutGoing($client);
-$mms = new \Davaxi\ALlMySMS\Model\MMS();
+$service = new Quentinix\AllMySMS\Service\Message\OutGoing($client);
+$mms = new \Quentinix\ALlMySMS\Model\MMS();
 // Required
 $sms->addRecipient('0600000000');
 $mms->setMessage('MyMessage');
@@ -154,8 +144,8 @@ $smsContentLength = $sms->getMessageLength();
 // ...
 
 // MMS
-$service = new Davaxi\AllMySMS\Service\Message\OutGoing($client);
-$email = new \Davaxi\ALlMySMS\Model\Email();
+$service = new Quentinix\AllMySMS\Service\Message\OutGoing($client);
+$email = new \Quentinix\ALlMySMS\Model\Email();
 
 // Required
 $email->setFrom('my@email.fr');

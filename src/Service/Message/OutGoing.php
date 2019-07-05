@@ -1,15 +1,15 @@
 <?php
 
-namespace Davaxi\AllMySMS\Service\Message;
+namespace Quentinix\AllMySMS\Service\Message;
 
-use Davaxi\AllMySMS\Model\Email;
-use Davaxi\AllMySMS\Model\MMS;
-use Davaxi\AllMySMS\Model\SMS;
-use Davaxi\AllMySMS\Service\Message;
+use Quentinix\AllMySMS\Model\Email;
+use Quentinix\AllMySMS\Model\MMS;
+use Quentinix\AllMySMS\Model\SMS;
+use Quentinix\AllMySMS\Service\Message;
 
 /**
  * Class OutGoing
- * @package Davaxi\AllMySMS\Service\Message
+ * @package Quentinix\AllMySMS\Service\Message
  */
 class OutGoing extends Message
 {

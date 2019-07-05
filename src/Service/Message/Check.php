@@ -1,12 +1,12 @@
 <?php
 
-namespace Davaxi\AllMySMS\Service\Message;
+namespace Quentinix\AllMySMS\Service\Message;
 
-use Davaxi\AllMySMS\Service\Message;
+use Quentinix\AllMySMS\Service\Message;
 
 /**
  * Class Check
- * @package Davaxi\AllMySMS\Service\Message
+ * @package Quentinix\AllMySMS\Service\Message
  */
 class Check extends Message
 {

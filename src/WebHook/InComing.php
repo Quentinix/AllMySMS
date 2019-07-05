@@ -1,12 +1,12 @@
 <?php
 
-namespace Davaxi\AllMySMS\WebHook;
+namespace Quentinix\AllMySMS\WebHook;
 
-use Davaxi\AllMySMS\WebHook;
+use Quentinix\AllMySMS\WebHook;
 
 /**
  * Class InComing
- * @package Davaxi\AllMySMS\WebHook
+ * @package Quentinix\AllMySMS\WebHook
  */
 class InComing extends WebHook
 {
