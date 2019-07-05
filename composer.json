@@ -19,8 +19,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/davaxi/AllMySMS/issues",
-    "source": "https://github.com/davaxi/AllMySMS/releases"
+    "issues": "https://github.com/Quentinix/AllMySMS/issues",
+    "source": "https://github.com/Quentinix/AllMySMS/releases"
   },
   "minimum-stability": "stable",
   "require": {
@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Davaxi\\AllMySMS\\": "src/"
+      "Quentinix\\AllMySMS\\": "src/"
     }
   }
 }

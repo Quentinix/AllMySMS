@@ -1,10 +1,10 @@
 <?php
 
-namespace Davaxi\AllMySMS;
+namespace Quentinix\AllMySMS;
 
 /**
  * Class Model
- * @package Davaxi\AllMySMS
+ * @package Quentinix\AllMySMS
  */
 abstract class Model
 {
