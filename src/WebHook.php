@@ -1,10 +1,10 @@
 <?php
 
-namespace Davaxi\AllMySMS;
+namespace Quentinix\AllMySMS;
 
 /**
  * Class WebHook
- * @package Davaxi\AllMySMS
+ * @package Quentinix\AllMySMS
  */
 abstract class WebHook
 {

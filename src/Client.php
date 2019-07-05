@@ -1,10 +1,10 @@
 <?php
 
-namespace Davaxi\AllMySMS;
+namespace Quentinix\AllMySMS;
 
 /**
  * Class Client
- * @package Davaxi\AllMySMS
+ * @package Quentinix\AllMySMS
  */
 class Client
 {

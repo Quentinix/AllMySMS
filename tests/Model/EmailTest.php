@@ -1,6 +1,6 @@
 <?php
 
-use Davaxi\AllMySMS\Model\Email as Email;
+use Quentinix\AllMySMS\Model\Email as Email;
 
 /**
  * Class EmailMockup

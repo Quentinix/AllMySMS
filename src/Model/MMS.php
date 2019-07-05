@@ -1,12 +1,12 @@
 <?php
 
-namespace Davaxi\AllMySMS\Model;
+namespace Quentinix\AllMySMS\Model;
 
-use Davaxi\AllMySMS\Model;
+use Quentinix\AllMySMS\Model;
 
 /**
  * Class MMS
- * @package Davaxi\AllMySMS\Model
+ * @package Quentinix\AllMySMS\Model
  */
 class MMS extends Model
 {
