@@ -27,6 +27,32 @@ class Tools extends Service
             'countryIsoCode' => $countryIsoCode
         ]);
     }
+    
+    /**
+     * Get prices for send SMS of services
+     * Example response:
+     * {
+     *      "countries": [{
+     *          "isoCode": "FR",
+     *          "sms": 0.045,
+     *          "directdeposit": 0.19,
+     *          "tts": 0.09,
+     *          "call": 0.09,
+     *          "prefix": 33
+     *       }]
+     *  }
+     *
+     * @param $countryIsoCode
+     * @return array
+     */
+    public function getPrices($countryIsoCode = null)
+    {
+        $params = [];
+        if (! is_null($countryIsoCode)) {
+            $params = ['countryIsoCode' => $countryIsoCode];
+        }
+        return $this->client->request('/getPrices/', $params);
+    }
 
     /**
      * Shorten URL
