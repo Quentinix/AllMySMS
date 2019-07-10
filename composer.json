@@ -1,7 +1,7 @@
 {
   "name": "quentinix/allmysms",
   "description": "A PHP client library for accessing AllMySMS APIs",
-  "version": "1.0.2-rev1",
+  "version": "1.0.4",
   "type": "library",
   "keywords": [
     "sms",
